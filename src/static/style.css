@@ -1,0 +1,86 @@
+body {
+    margin-top: 35px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Audiowide', cursive;
+    background: #1F1D2B;
+}
+
+.head {
+    font-size: 20px;
+    text-align: left;
+    border: solid 2px black;
+    padding: 10px;
+    background: #FFF; 
+}
+
+.title {
+    margin: 20px 100px;
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    color: #FFE109;
+} 
+
+.header {
+    background: #3A2E9C;
+    padding: 5px 0;
+}
+
+.playground {
+    border: solid 2px #3A2E9C;
+    margin-top: 40px;
+}
+
+#squares {
+    margin-top: 30px;
+    padding-left: 25px;
+    max-width: 400px;
+    background: #302C51;
+}
+
+.square {
+    width: 50px;
+    height: 50px;
+    border: solid 2px black;
+    display: inline-block;
+    margin: 10px;
+}
+
+.square:hover {
+    cursor: pointer;
+}
+
+.selectedSquare {
+    cursor: pointer;
+    background: #21B321;
+}
+
+.selectedSquare:hover {
+    cursor: pointer;
+    background: #2D5D2D;
+}
+
+#endGameAlert {
+    color: rgb(206, 29, 29);
+    font-size: 52px;
+    margin-top: 50px;
+    display: none;
+}
+
+.button {
+    font-size: 22px;
+    margin: 40px;
+    text-align: center;
+    border: solid 1px black;
+    text-transform: uppercase;
+    background: #FFE109;
+    padding: 10px;
+    
+}
+
+.button:hover {
+    cursor: pointer;
+    background: #E0C929;
+    color: #FFF;
+}
