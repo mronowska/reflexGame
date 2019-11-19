@@ -7,7 +7,7 @@ const squares = document.getElementById('squares');
 let squareElement = document.getElementsByClassName('square');
 
 const sec = 1000;
-const maxSec = 10; //ZWIĘKSZYĆ DO ^)60!!!!!!
+const maxSec = 60;
 let idTimeInterval, time, changeSquareTime;
 
 //random ID of the square
