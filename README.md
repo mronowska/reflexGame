@@ -15,7 +15,7 @@
 
 ### Uwagi
 Ze względu na możliwość swobodnej modyfikacji ustawień projektu zastosowano m.in:
-* gra uruchamiana poprzez polecenie $ npm start
+* gra uruchamiana poprzez polecenie ```npm start```
 * rozwiązanie, które dopiero po wciśnięciu przycisku Start powoduje pojawienie się kwadratów, których liczba zdefiniowana jest poprzez parametr w JS
 * zakończenie gry wiąże się z zakończeniem wyświetlania kwadratów i pojawieniem się treści "Koniec gry!"
 * lekkim zmianom poddano także prezentację gry 
